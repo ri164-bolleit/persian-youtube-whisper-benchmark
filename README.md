@@ -1,6 +1,17 @@
-# Whisper Persian Audio Transcription Evaluation
+# Segmentation Strategy Matters: Benchmarking Whisper on Persian YouTube Content
 
-Evaluates [OpenAI Whisper](https://github.com/openai/whisper) transcription accuracy on Persian (Farsi) audio using two segmentation strategies.
+This repository contains the official implementation and evaluation scripts for the paper **"Segmentation Strategy Matters: Benchmarking Whisper on Persian YouTube Content"**, published at **Silk Road NLP 2026 (ACL Anthology)**.
+
+[Read the Paper](https://aclanthology.org/2026.silkroadnlp-1.13/)
+
+---
+
+## Overview
+
+This project benchmarks the performance of OpenAI's Whisper models on Persian YouTube data (Kouman and Roud podcasts). We specifically investigate how different audio segmentation approaches affect Word Error Rate (WER) and Character Error Rate (CER):
+
+1. **Timestamp-based Segmentation:** Uses ground-truth timestamps to isolate segments.
+2. **Silence-based Segmentation:** A more "in-the-wild" approach that detects pauses to segment audio, requiring fuzzy alignment to match transcripts.
 
 ---
 
@@ -66,3 +77,26 @@ Reference transcripts are located in the `kouman_transcripts/` and `roud_transcr
 
 - **Kouman:** [Google Drive](https://drive.google.com/drive/folders/1tekt97xA0nEAJtw36oqwtHVgs4F-Y7ui?usp=sharing)
 - **Roud:** [Google Drive](https://drive.google.com/drive/folders/1g2gUlJljKPEuYtKHFvHoRwnRKUV6ysb-?usp=sharing)
+
+
+## Citation
+
+If you use this code or our findings in your research, please cite our paper:
+
+```bibtex
+@inproceedings{iranmanesh-etal-2026-segmentation,
+    title = "Segmentation Strategy Matters: Benchmarking Whisper on {P}ersian {Y}ou{T}ube Content",
+    author = "Iranmanesh, Reihaneh  and
+      Ziaei, Rojin  and
+      Garman, Joe",
+    editor = "Merchant, Rayyan  and
+      Megerdoomian, Karine",
+    booktitle = "The Proceedings of the First Workshop on {NLP} and {LLM}s for the {I}ranian Language Family",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.silkroadnlp-1.13/",
+    doi = "10.18653/v1/2026.silkroadnlp-1.13",
+    pages = "121--130"
+}
