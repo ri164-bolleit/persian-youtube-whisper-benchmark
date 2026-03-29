@@ -75,7 +75,7 @@ Each run prints a WER/CER summary to stdout and saves a detailed per-segment JSO
 
 Reference transcripts are located in the `kouman_transcripts/` and `roud_transcripts/` directories. The corresponding audio files can be found on Google Drive:
 
-- **Kouman:** [Google Drive](https://drive.google.com/drive/folders/1tekt97xA0nEAJtw36oqwtHVgs4F-Y7ui?usp=sharing)
+- **Kouman:** [Google Drive](https://drive.google.com/drive/folders/1ca_zBlVkLn1THIE3pFFggu2dAKEHW8g5?usp=sharing)
 - **Roud:** [Google Drive](https://drive.google.com/drive/folders/1g2gUlJljKPEuYtKHFvHoRwnRKUV6ysb-?usp=sharing)
 
 
