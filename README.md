@@ -17,8 +17,8 @@ This project benchmarks the performance of OpenAI's Whisper models on Persian Yo
 
 ## Scripts
 
-- **`timestamp_segmentation.py`** — Splits audio using timestamps from the reference CSV for a clean 1-to-1 segment evaluation.
-- **`silence_segmentation.py`** — Splits audio by detecting silence (5–30s segments), then uses fuzzy time alignment to match segments to reference entries.
+- **`src/timestamp_segmentation.py`** — Splits audio using timestamps from the reference CSV for a clean 1-to-1 segment evaluation.
+- **`src/silence_segmentation.py`** — Splits audio by detecting silence (5–30s segments), then uses fuzzy time alignment to match segments to reference entries.
 
 ---
 
