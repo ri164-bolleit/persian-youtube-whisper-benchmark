@@ -1,6 +1,6 @@
 # Segmentation Strategy Matters: Benchmarking Whisper on Persian YouTube Content
 
-This repository contains the official implementation and evaluation scripts for the paper **"Segmentation Strategy Matters: Benchmarking Whisper on Persian YouTube Content"**, published at **Silk Road NLP EACL 2026 (First Workshop on NLP and LLMs for the Iranian Language Family)**.
+This repository contains the official implementation and evaluation scripts for the paper **"Segmentation Strategy Matters: Benchmarking Whisper on Persian YouTube Content"**, published at **SilkRoadNLP EACL 2026 (First Workshop on NLP and LLMs for the Iranian Language Family)**.
 
 [Read the Paper](https://aclanthology.org/2026.silkroadnlp-1.13/)
 
